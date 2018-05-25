@@ -1,0 +1,56 @@
+// embed font - Abel 
+// @import url('https://fonts.googleapis.com/css?family=Abel');
+
+// font variable 
+$font: 'Abel', sans-serif;
+
+// fonts settings - body 
+body {
+  font-family: $font;
+  font-weight: 400; 
+  color: $primary-color;
+}
+
+// font settings - 'Home' page title
+.blog-title a {
+  font-family: $font;
+  color: $primary-color;	
+}
+
+// font settings - other page titles
+.post-title a {
+  font-family: $font;
+  color: $primary-color;	
+}
+
+// font settings - other page titles when hover
+.post-title a:hover {
+  color: $primary-color; 
+  text-decoration: underline $secondary-color; 
+}
+
+// font settings - all post (and pages) content 
+.post-content {
+  font-family: $font;	
+}
+
+// font settings - 'Contact Us' form labels 
+.post-content label {
+  font-family: $font;	
+}
+
+// font settings - post content heading elements h1 - h6
+@for $index from 1 through 6 {
+  .post-content h#{$index} {
+    font-family: $font;
+  }
+}
+
+// font settings - widget content in footer
+.widget-content {
+  font-family: $font;	
+}
+
+.post-navigation h4 a {
+  color: $primary-color;  
+}

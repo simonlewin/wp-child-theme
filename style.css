@@ -11,3 +11,51 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  lovecraft-child
 */
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  color: #316366; }
+
+.blog-title a {
+  font-family: "Abel", sans-serif;
+  color: #316366; }
+
+.post-title a {
+  font-family: "Abel", sans-serif;
+  color: #316366; }
+
+.post-title a:hover {
+  color: #316366;
+  text-decoration: underline #98B1B3; }
+
+.post-content {
+  font-family: "Abel", sans-serif; }
+
+.post-content label {
+  font-family: "Abel", sans-serif; }
+
+.post-content h1 {
+  font-family: "Abel", sans-serif; }
+
+.post-content h2 {
+  font-family: "Abel", sans-serif; }
+
+.post-content h3 {
+  font-family: "Abel", sans-serif; }
+
+.post-content h4 {
+  font-family: "Abel", sans-serif; }
+
+.post-content h5 {
+  font-family: "Abel", sans-serif; }
+
+.post-content h6 {
+  font-family: "Abel", sans-serif; }
+
+.widget-content {
+  font-family: "Abel", sans-serif; }
+
+.post-navigation h4 a {
+  color: #316366; }
+
+/*# sourceMappingURL=style.css.map */
